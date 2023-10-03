@@ -1,0 +1,15 @@
+{
+  "name": "light-switch-city",
+  "version": "1.0.0",
+  "description": "Where light switches go to be around each other.",
+  "main": "light-switch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.50.0"
+  }
+}

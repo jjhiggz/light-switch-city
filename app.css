@@ -3,6 +3,7 @@ body,
 :root {
   margin: 0px;
   padding: 0px;
+  height: 100%;
 }
 
 header {
@@ -13,4 +14,67 @@ header {
   display: flex;
   align-items: center;
   padding: 0px 20px 0px 20px;
+}
+
+.light-switch {
+  height: 300px;
+  width: 200px;
+  border: 4px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.knob-container {
+  width: 40px;
+  height: 40px;
+  border: 4px solid black;
+  background-color: black;
+  position: relative;
+}
+
+.knob-up {
+  background-color: black;
+  border: 1px solid white;
+  position: absolute;
+  bottom: 10px;
+  left: 9px;
+  height: 60px;
+  width: 20px;
+}
+.knob-down {
+  background-color: black;
+  border: 1px solid white;
+  position: absolute;
+  top: 10px;
+  left: 9px;
+  height: 60px;
+  width: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  display: flex;
+  height: 100%;
+}
+
+.left {
+  background-color: tomato;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  background-color: yellow;
+  flex: 1;
+}
+
+.right.dark {
+  background-color: black;
 }
